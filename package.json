@@ -1,0 +1,9 @@
+{
+  "name": "sentinel-ai-intelligence-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0", "build": "vite build", "preview": "vite preview --host 0.0.0.0", "api": "tsx server/index.ts", "dev:all": "concurrently -k \"npm:api\" \"npm:dev\"" },
+  "dependencies": { "@apollo/client": "^3.13.8", "@apollo/server": "^4.12.2", "@as-integrations/express4": "^1.1.2", "@aws-sdk/client-bedrock-runtime": "^3.758.0", "@vitejs/plugin-react": "latest", "cors": "^2.8.5", "dotenv": "^16.4.7", "express": "^4.21.2", "graphql": "^16.10.0", "lucide-react": "^0.468.0", "react": "latest", "react-dom": "latest", "recharts": "^2.15.0", "vite": "latest", "typescript": "latest" },
+  "devDependencies": { "@types/cors": "^2.8.17", "@types/express": "^4.17.21", "@types/node": "^22.13.4", "concurrently": "^9.1.2", "tsx": "^4.19.2" }
+}

@@ -1,0 +1,6 @@
+"""Fictional seed corpus for the Python RAG service."""
+DOCUMENTS = [
+    {"id": "northstar-q4-p4", "title": "Northstar Growth · Q4 2025 Portfolio Review", "page": 4, "tags": ["northstar", "performance", "quarter", "returns"], "text": "Northstar Growth gained 6.3% in Q4 2025, compared with 3.1% for its benchmark. AI infrastructure names led returns, while consumer discretionary positions lagged. The portfolio returned 21.4% over the past 12 months versus 11.2% for the S&P 500."},
+    {"id": "northstar-q4-p5", "title": "Northstar Growth · Q4 2025 Portfolio Review", "page": 5, "tags": ["northstar", "risk", "concentration", "technology"], "text": "Technology represented 46.2% of holdings, approximately 8 percentage points above the benchmark. NVIDIA was the largest single-name position at 18.4%. Review concentration limits and confirm allocation aligns with investor risk profile."},
+    {"id": "attribution-2025-p2", "title": "Portfolio Attribution · 2025", "page": 2, "tags": ["performance", "contribution", "nvidia", "microsoft"], "text": "NVIDIA and Microsoft were the largest contributors to 12-month returns, adding 6.8 and 3.1 percentage points respectively. The largest headwind was an underweight in energy during Q2."},
+]
